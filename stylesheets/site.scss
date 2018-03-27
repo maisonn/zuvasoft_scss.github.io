@@ -1,0 +1,129 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #faf8f6;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  text-align: left;
+  padding: 1px 15px;
+  &#answers {
+    background: url(../images/Layer1.png);
+    background-color: #faf8f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  &#forwho {
+    background: url(../images/Layer2.png);
+    background-color: #faf8f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  &#team {
+    background: url(../images/Layer3.png);
+    background-color: #faf8f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  &#presentation {
+    background: url(../images/Layer1.png);
+    background-color: #faf8f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+.Logo {
+  /* The image used */
+  float: left;
+}
+
+.logoimg {
+  max-width: 90%;
+  min-width: 20%;
+  height: auto;
+}
+
+nav {
+  a {
+    text-decoration: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  li {
+    list-style-position: inside;
+    font: 14px 'Oswald', sans-serif;
+    padding: 10px;
+  }
+}
+
+.top-menu {
+  li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+    &:last-child {
+      background: #ff3d00;
+      color: #fff;
+      a {
+        color: #fff;
+      }
+    }
+    &:hover a {
+      border-bottom: 3px solid #ff3d00;
+    }
+  }
+  .active a {
+    border-bottom: 3px solid #ff3d00;
+  }
+  a {
+    color: #2f3132;
+    font-weight: bold;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.mainlogo {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.content {
+  margin-top: 200px;
+  margin-left: 35px;
+  h1 {
+    margin-top: -15px;
+    font-size: 1.5vw;
+  }
+  span {
+    color: #e9e8e6;
+    font-size: 5.5vw;
+    font-family: arsenal, sans-serif;
+    padding-bottom: 1.5%;
+    border-bottom: 5px solid #ff3d00;
+  }
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.responsive {
+  width: 95%;
+  height: auto;
+}
