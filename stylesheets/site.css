@@ -4,11 +4,12 @@ body {
   background-color: #faf8f6;
   background-size: cover;
   background-attachment: fixed;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-align: left;
   padding: 1px 15px; }
   body#answers {
     background: url(../images/Layer1.png);
+    font-family: "Lato", sans-serif;
     background-color: #faf8f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -16,6 +17,7 @@ body {
     background-attachment: fixed; }
   body#forwho {
     background: url(../images/Layer2.png);
+    font-family: "Lato", sans-serif;
     background-color: #faf8f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,6 +25,7 @@ body {
     background-attachment: fixed; }
   body#team {
     background: url(../images/Layer3.png);
+    font-family: "Lato", sans-serif;
     background-color: #faf8f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -30,6 +33,7 @@ body {
     background-attachment: fixed; }
   body#presentation {
     background: url(../images/Layer1.png);
+    font-family: "Lato", sans-serif;
     background-color: #faf8f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,6 +104,50 @@ footer {
 
 .responsive {
   width: 95%;
-  height: auto; }
+  height: auto; 
+  cursor:pointer }
+
+/* Bottomnav Bar for Javascript styles */
+
+.bottomnav {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+.bottomnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.bottomnav a:hover {
+    color: #ff3d00;
+}
+
+.bottomnav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .bottomnav {padding-top: 15px;}
+  .bottomnav a {font-size: 18px;}
+}
+
 
 /*# sourceMappingURL=site.css.map */
